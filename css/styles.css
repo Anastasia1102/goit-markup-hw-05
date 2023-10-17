@@ -737,8 +737,6 @@ ul {
 }
 
 .check-text {
-  display: inline-flex;
-  align-items: center;
   color: #8e8f99;
   font-size: 12px;
   line-height: 1.17;
