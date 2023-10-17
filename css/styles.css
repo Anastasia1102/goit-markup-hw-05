@@ -529,6 +529,7 @@ ul {
 
 .footer-form {
   display: flex;
+  gap: 24px;
 }
 
 .footer-form-title {
@@ -544,29 +545,27 @@ ul {
   width: 264px;
   height: 40px;
   color: var(--WHITE, #fff);
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   border-radius: 4px;
   border: 1px solid var(--WHITE, #fff);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   background-color: transparent;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 16px;
-  margin-right: 24px;
 }
 
 .footer-input::placeholder {
   color: var(--WHITE, #fff);
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 2; /* 200% */
-  letter-spacing: 0.48px;
 }
 
 .footer-form-btn {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  min-width: 165px;
   border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
   color: var(--WHITE, #fff);
@@ -582,6 +581,7 @@ ul {
 
 .footer-btn-icon {
   fill: #ffffff;
+  margin-left: 16px;
 }
 
 .backdrop {
